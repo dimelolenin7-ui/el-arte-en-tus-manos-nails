@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Arte en Tus Manos - Nails</title>
+    <!-- Tailwind CSS para un diseño moderno y responsive -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- FontAwesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="bg-pink-50 text-slate-800 antialiased selection:bg-pink-200">
+
+    <!-- Header / Barra de Navegación -->
+    <header class="bg-white/90 backdrop-blur-md sticky top-0 z-50 shadow-xs border-b border-pink-100">
+        <div class="max-w-md mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 rounded-full bg-pink-200 flex items-center justify-center text-pink-700 font-bold shadow-xs">
+                    <i class="fa-solid fa-hand-sparkles"></i>
+                </div>
+                <div>
+                    <h1 class="font-bold text-sm text-pink-900 leading-tight">El Arte en Tus Manos</h1>
+                    <span class="text-xs text-pink-600 font-medium">Nails Academy</span>
+                </div>
+            </div>
+            <a href="#contacto" class="bg-pink-600 hover:bg-pink-700 text-white text-xs font-semibold px-3 py-2 rounded-full transition shadow-sm">
+                Inscribirme
+            </a>
+        </div>
+    </header>
+
+    <!-- Contenedor Principal Estilo Móvil / Responsive -->
+    <main class="max-w-md mx-auto min-h-screen bg-white shadow-lg pb-20">
+
+        <!-- Sección Hero -->
+        <section class="relative bg-gradient-to-b from-pink-100 via-pink-50 to-white px-6 pt-8 pb-10 text-center">
+            <div class="inline-block bg-pink-200 text-pink-800 text-xs font-semibold px-3 py-1 rounded-full mb-3">
+                ✨ Especialización Profesional
+            </div>
+            <h2 class="text-2xl font-bold text-pink-950 mb-2">Domina el Arte del Manicure</h2>
+            <p class="text-sm text-slate-600 mb-6 italic">"Capacítate desde cero y emprende desde casa"</p>
+            
+            <div class="bg-white p-4 rounded-2xl shadow-md border border-pink-100 mb-6">
+                <div class="flex justify-around text-center">
+                    <div>
+                        <span class="block font-bold text-pink-600 text-lg">+1.500</span>
+                        <span class="text-[10px] text-slate-500 uppercase tracking-wider">Alumnas</span>
+                    </div>
+                    <div class="border-r border-pink-100"></div>
+                    <div>
+                        <span class="block font-bold text-pink-600 text-lg">100%</span>
+                        <span class="text-[10px] text-slate-500 uppercase tracking-wider">Práctico</span>
+                    </div>
+                    <div class="border-r border-pink-100"></div>
+                    <div>
+                        <span class="block font-bold text-pink-600 text-lg">Certificado</span>
+                        <span class="text-[10px] text-slate-500 uppercase tracking-wider">Incluido</span>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#cursos" class="block w-full bg-gradient-to-r from-pink-500 to-rose-500 text-white font-semibold py-3 px-6 rounded-xl shadow-md hover:opacity-95 transition text-sm">
+                Ver Programas y Clases <i class="fa-solid fa-arrow-right ml-2"></i>
+            </a>
+        </section>
+
+        <!-- Sección de Programas / Cursos -->
+        <section id="cursos" class="px-6 py-6">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="font-bold text-base text-pink-950">Nuestros Cursos</h3>
+                <span class="text-xs text-pink-600 font-medium">Cupos Abiertos</span>
+            </div>
+
+            <div class="space-y-4">
+                <!-- Curso 1 -->
+                <div class="bg-pink-50/60 border border-pink-100 rounded-2xl p-4 flex gap-4 items-center hover:shadow-sm transition">
+                    <div class="w-14 h-14 bg-pink-200 rounded-xl flex-shrink-0 flex items-center justify-center text-pink-700 text-xl font-bold">
+                        💅
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="font-bold text-sm text-pink-900">Manicure Semipermanente & Trazos</h4>
+                        <p class="text-xs text-slate-600 mb-1">Técnicas avanzadas de nivelación y diseños a mano alzada.</p>
+                        <span class="inline-block bg-pink-200 text-pink-800 text-[10px] font-semibold px-2 py-0.5 rounded-md">Desde Cero</span>
+                    </div>
+                </div>
+
+                <!-- Curso 2 -->
+                <div class="bg-pink-50/60 border border-pink-100 rounded-2xl p-4 flex gap-4 items-center hover:shadow-sm transition">
+                    <div class="w-14 h-14 bg-pink-200 rounded-xl flex-shrink-0 flex items-center justify-center text-pink-700 text-xl font-bold">
+                        ✨
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="font-bold text-sm text-pink-900">Especialista en Polygel y Acrílico</h4>
+                        <p class="text-xs text-slate-600 mb-1">Extensiones duraderas, estructura perfecta y esculpido profesional.</p>
+                        <span class="inline-block bg-pink-200 text-pink-800 text-[10px] font-semibold px-2 py-0.5 rounded-md">Avanzado</span>
+                    </div>
+                </div>
+
+                <!-- Curso 3 -->
+                <div class="bg-pink-50/60 border border-pink-100 rounded-2xl p-4 flex gap-4 items-center hover:shadow-sm transition">
+                    <div class="w-14 h-14 bg-pink-200 rounded-xl flex-shrink-0 flex items-center justify-center text-pink-700 text-xl font-bold">
+                        🌸
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="font-bold text-sm text-pink-900">Master en Nail Art & Decoración</h4>
+                        <p class="text-xs text-slate-600 mb-1">Efectos en tendencia, foil, 3D y combinación de colores.</p>
+                        <span class="inline-block bg-pink-200 text-pink-800 text-[10px] font-semibold px-2 py-0.5 rounded-md">Todos los niveles</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Beneficios / Historia -->
+        <section class="px-6 py-6 bg-pink-50/40 border-t border-b border-pink-100">
+            <h3 class="font-bold text-base text-pink-950 mb-3 text-center">¿Por qué elegirnos?</h3>
+            <div class="space-y-3">
+                <div class="flex items-start gap-3 bg-white p-3 rounded-xl shadow-2xs border border-pink-100">
+                    <i class="fa-solid fa-check-circle text-pink-600 mt-1"></i>
+                    <p class="text-xs text-slate-700">Acceso ilimitado 24/7 a las clases grabadas en alta definición.</p>
+                </div>
+                <div class="flex items-start gap-3 bg-white p-3 rounded-xl shadow-2xs border border-pink-100">
+                    <i class="fa-solid fa-check-circle text-pink-600 mt-1"></i>
+                    <p class="text-xs text-slate-700">Acompañamiento personalizado y resolución de dudas directo por asesores.</p>
+                </div>
+                <div class="flex items-start gap-3 bg-white p-3 rounded-xl shadow-2xs border border-pink-100">
+                    <i class="fa-solid fa-check-circle text-pink-600 mt-1"></i>
+                    <p class="text-xs text-slate-700">Kit de inicio recomendado y lista de proveedores sugeridos.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto / Call to Action -->
+        <section id="contacto" class="px-6 py-8 text-center">
+            <div class="bg-gradient-to-br from-pink-500 to-rose-600 text-white p-6 rounded-2xl shadow-md">
+                <h3 class="font-bold text-lg mb-2">¡Comienza tu transformación hoy!</h3>
+                <p class="text-xs text-pink-100 mb-4">Capacítate desde cero y emprende desde casa con nuestro método exclusivo.</p>
+                <a href="https://wa.me/" target="_blank" class="inline-block bg-white text-pink-700 font-bold text-xs py-3 px-6 rounded-xl shadow-sm hover:bg-pink-50 transition">
+                    <i class="fa-brands fa-whatsapp text-green-600 text-base mr-1 align-middle"></i> Hablar con una Asesora
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-pink-100 py-4 text-center text-xs text-slate-500">
+        <p>© 2026 El Arte en Tus Manos Nails. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+                          </html>
+                          
